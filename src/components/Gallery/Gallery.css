@@ -1,0 +1,66 @@
+.background-gallery {
+    background-color: gray;
+    width: 100%;
+    min-height: calc(100vh - 42px);
+    display: flex;
+    align-items: center;
+    background-image:
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(141, 140, 140, 0.5)),
+        url("../../assets/img/background-gallery.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.gallery-flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+}
+
+.gallery-flex-row {
+    display: flex;
+    width: 88%;
+    justify-content: space-between;
+    max-width: 800px;
+}
+
+.gallery-white-link {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    align-self: flex-start;
+    text-decoration: none;
+    padding: 0px 12px 0px 12px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.gallery-white-link:hover {
+    transform: scale(1.2);
+    color: white;
+}
+
+@media screen and (min-width: 320px) {
+    .gallery-flex-row {
+        max-width: 262px;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .gallery-flex-row {
+        max-width: 400px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .gallery-flex-row {
+        max-width: 700px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .gallery-flex-row {
+        max-width: 800px;
+    }
+}

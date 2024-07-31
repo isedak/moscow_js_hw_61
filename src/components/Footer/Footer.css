@@ -1,0 +1,27 @@
+.footer-background {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 42px;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-text {
+    color: rgb(183 183 183);
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.footer-link {
+    color: rgb(183 183 183);
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.footer-link:hover,
+.footer-link:active {
+    color: white;
+}
